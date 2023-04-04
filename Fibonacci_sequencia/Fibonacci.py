@@ -28,7 +28,7 @@ class Fibonacci:
             print(f"\nO número {nro_escolhido} está na sequência de Fibonacci, e é o {index}° número\n")
             sleep(1)
             continua_solicitacao = input(str("\nSe deseja verificar outro número digite [S]\n"
-                                            "se quiser parar, digite [X]\n").strip().lower())
+                                            "Se quiser parar, digite [X]\n").strip().lower())
             if continua_solicitacao == "x":
                 print("Fechando o Programa...")
                 exit()
